@@ -10,9 +10,18 @@
 </head>
 
 <body>
+    <h1>Ok!</h1>
     <script>
-        var name = "Nguyen Tan Tien";
-        document.write(name);
+        var color = prompt("vui long nhap ten mau sac");
+        switch (color) {
+            case 'red':
+            case 'yellow':
+            case 'blue':
+                document.write("color " + color + "!");
+                break;
+            default:
+                document.write("mau ban nhap khong cos trong he thong!");
+        }
     </script>
 </body>
 
